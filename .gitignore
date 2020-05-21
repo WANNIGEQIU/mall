@@ -14,5 +14,13 @@ buildNumber.properties
 **/mvnw.cmd
 **/.mvn
 **/target/
+**/HELP.md
+**/mall.iml
+**/mall-coupon.iml
+**/mall-member.iml
+**/mall-order.iml
+**/mall-product.iml
+**/mall-ware.iml
+
 .idea
 **/.gitignore
