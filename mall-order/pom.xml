@@ -8,7 +8,7 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.im.order</groupId>
+	<groupId>com.im.mall</groupId>
 	<artifactId>mall-order</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mall-order</name>
@@ -27,6 +27,23 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.im.mall</groupId>
+			<artifactId>mall-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!--lombok-->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.12</version>
+		</dependency>
+		<!--mybatis plus-->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+			<version>3.3.1.tmp</version>
 		</dependency>
 
 		<dependency>
